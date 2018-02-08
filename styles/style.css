@@ -1,0 +1,178 @@
+.common-wrapper {
+    margin: 0 auto;
+    padding-top: 0.1px;
+    max-width: 1024px;
+    min-height: 900px;
+    background-image: linear-gradient(-45deg, transparent 52%, rgba(18, 40, 73, 0.9) 54%,
+    transparent 55%, transparent),
+    linear-gradient(45deg, transparent 52%, rgba(18, 40, 73, 0.6) 54%, transparent 55%, transparent),
+    linear-gradient(-45deg, transparent 50%, rgba(18, 40, 73, 0.1) 52%, transparent 53%, transparent),
+    linear-gradient(45deg, transparent 50%, rgba(0, 0, 0, 0.05) 52%, transparent 53%, transparent);
+    background-color: #162c57;
+    background-size: 50px 50px;
+}
+
+/*HEADER*/
+
+.header-wrapper {
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 1024px;
+    height: 40px;
+    margin: auto;
+    background: #eeeeee;
+}
+
+/*ASIDE*/
+
+.aside-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+/*ASIDE-BTN*/
+
+.aside-btn {
+    margin: 3px 0;
+    background-color: #162c57;
+    color: white;
+    padding: 9px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.aside-btn-left {
+    margin-left: 50px;
+}
+
+.aside-btn-right {
+    margin-right: 50px;
+}
+
+.aside-btn:hover {
+    background-color: #244680;
+}
+
+/*ASIDE-CONTENT*/
+
+.aside-content {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    min-width: 300px;
+    min-height: 900px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.aside-content-left {
+    transform: translatex(-300px);
+}
+
+.aside-content-right {
+    transform: translatex(143px);
+}
+
+/*MAIN*/
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-description {
+    box-sizing: border-box;
+    margin: 50px auto 20px;
+    padding: 25px 0;
+    width: 90%;
+    min-height: 100px;
+    color: #fffef0;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: #0c1c34 2px 2px 7px;
+    box-shadow: #fffef0 1px 1px 10px 0;
+    background-image: linear-gradient(-45deg, transparent 52%, rgba(18, 40, 73, 0.9) 54%,
+    transparent 55%, transparent),
+    linear-gradient(45deg, transparent 52%, rgba(33, 81, 148, 0.6) 54%, transparent 55%, transparent),
+    linear-gradient(-45deg, transparent 50%, rgba(18, 40, 73, 0.1) 52%, transparent 53%, transparent),
+    linear-gradient(45deg, transparent 50%, rgba(0, 0, 0, 0.05) 52%, transparent 53%, transparent);
+    background-color: #8c94be;
+    background-size: 20px 20px;
+}
+
+.main-fixed-description {
+    max-width: 200px;
+    height: 400px;
+    background: #828db2;
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+/*FOOTER*/
+
+.footer-wrapper {
+    max-width: 1024px;
+    padding: 30px 0;
+    background: #cdcdcd;
+    margin: 0 auto;
+}
+
+/*JAVASCRIPT*/
+
+/*aside-left*/
+
+.show-aside-left {
+    transform: translatex(0);
+    transition: 1s linear;
+    color: #ffffff;
+    background-image: linear-gradient(-45deg, transparent 52%, rgba(18, 40, 73, 0.9) 54%,
+    transparent 55%, transparent),
+    linear-gradient(45deg, transparent 52%, rgba(18, 40, 73, 0.6) 54%, transparent 55%, transparent),
+    linear-gradient(-45deg, transparent 50%, rgba(18, 40, 73, 0.1) 52%, transparent 53%, transparent),
+    linear-gradient(45deg, transparent 50%, rgba(0, 0, 0, 0.05) 52%, transparent 53%, transparent);
+    background-color: #1f396e;
+    background-size: 35px 35px;
+}
+
+.move-aside-left {
+    transform: translateX(-310px);
+    color: transparent;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    transition: 1.2s;
+}
+
+/*aside-right*/
+
+.show-aside-right {
+    transform: translatex(-156px);
+    transition: 1s linear;
+    color: #ffffff;
+    background-image: linear-gradient(-45deg, transparent 52%, rgba(18, 40, 73, 0.9) 54%,
+    transparent 55%, transparent),
+    linear-gradient(45deg, transparent 52%, rgba(18, 40, 73, 0.6) 54%, transparent 55%, transparent),
+    linear-gradient(-45deg, transparent 50%, rgba(18, 40, 73, 0.1) 52%, transparent 53%, transparent),
+    linear-gradient(45deg, transparent 50%, rgba(0, 0, 0, 0.05) 52%, transparent 53%, transparent);
+    background-color: #1f396e;
+    background-size: 35px 35px;
+}
+
+.move-aside-right {
+    transform: translateX(200px);
+    color: transparent;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    transition: 1.2s;
+}

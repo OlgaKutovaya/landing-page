@@ -1,4 +1,4 @@
-//Left-aside-open
+//Left-aside
 var leftClickNo = 1;
 
 function leftClickAction() {
@@ -15,7 +15,7 @@ function leftClickAction() {
     leftClickNo++;
 }
 
-// Right-aside-open
+// Right-aside
 var rightClickNo = 1;
 
 function rightClickAction() {

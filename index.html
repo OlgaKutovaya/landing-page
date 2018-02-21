@@ -13,42 +13,102 @@
 <body>
 <div class="common-wrapper">
     <!--HEADER-->
-    <header class="header-wrapper">
+    <header class="fixed-header-wrapper">
         <nav class="nav-wrapper">
             <!--LEFT-ASIDE-->
             <aside class="aside-wrapper aside-wrapper-left">
-                <button onclick="leftClickAction()" class="aside-btn aside-btn-left">More</button>
-                <div id="asideLeft" class="aside-content aside-content-left"></div>
+                <button onclick="leftClickAction()" class="aside-btn aside-btn-left">&dArr; More &dArr;</button>
+                <div id="asideLeft" class="aside-content aside-content-left">
+                    <p class="aside-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                        ipsum reiciendis repudiandae
+                        tempore. Asperiores aut consequuntur harum ipsa iure nemo nulla quasi sint sunt unde? Beatae
+                        blanditiis laudantium officia sed!</p>
+                    <p class="aside-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                        ipsum reiciendis repudiandae
+                        tempore. Asperiores aut consequuntur harum ipsa iure nemo nulla quasi sint sunt unde? Beatae
+                        blanditiis laudantium officia sed!</p>
+                    <p class="aside-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                        ipsum reiciendis repudiandae
+                        tempore. Asperiores aut consequuntur harum ipsa iure nemo nulla quasi sint sunt unde? Beatae
+                        blanditiis laudantium officia sed!</p>
+                </div>
             </aside>
             <!--RIGHT-ASIDE-->
             <aside class="aside-wrapper aside-wrapper-right">
-                <button onclick="rightClickAction()" class="aside-btn aside-btn-right">More</button>
-                <div id="asideRight" class="aside-content aside-content-right"></div>
+                <button onclick="rightClickAction()" class="aside-btn aside-btn-right">&dArr; More &dArr;</button>
+                <div id="asideRight" class="aside-content aside-content-right">
+                    <p class="aside-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                        ipsum reiciendis repudiandae
+                        tempore. Asperiores aut consequuntur harum ipsa iure nemo nulla quasi sint sunt unde? Beatae
+                        blanditiis laudantium officia sed!</p>
+                    <p class="aside-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                        ipsum reiciendis repudiandae
+                        tempore. Asperiores aut consequuntur harum ipsa iure nemo nulla quasi sint sunt unde? Beatae
+                        blanditiis laudantium officia sed!</p>
+                    <p class="aside-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+                        ipsum reiciendis repudiandae
+                        tempore. Asperiores aut consequuntur harum ipsa iure nemo nulla quasi sint sunt unde? Beatae
+                        blanditiis laudantium officia sed!</p>
+                </div>
             </aside>
         </nav>
     </header>
+    <!--MAIN-->
     <main class="main-wrapper">
-        <section class="main-description">
-            <h1>Happiness is not a destination. It is a method of life.</h1>
+        <section class="heading-main-description">
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
         </section>
-        <section class="main-fixed-description">
-            <p class="main-fixed-text-description">Everyone seems to be in the pursuit of happiness nowadays.
-                There are many ways to reach happiness,though including training your mind for happiness,spending money
-                on others to promote happiness,and following the code to well-being and happiness.Most of us think we
-                know what happiness is, but what are the actual elements that promote happiness within each of
-                us?Seligman’s theoretical model of happiness helps us understand these elements and what we can do to
-                maximize each element to reach a life full of happiness.</p>
+        <section class="wrapper-main-description">
+            <article class="main-description">
+                <p class="main-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consequatur dicta explicabo ipsam maiores minus, officia qui similique sit soluta temporibus.
+                    Accusamus amet asperiores assumenda atque culpa ducimus eveniet, hic illo maxime molestiae quis
+                    quisquam sint, unde vitae voluptatum! Natus ratione sequi tenetur? Dolores magni maiores
+                    praesentium. Architecto assumenda corporis dicta eligendi, magnam modi quae quia! Cum distinctio
+                    minima natus numquam odio perspiciatis, quaerat tenetur unde vitae. Dolorum ducimus quas rerum.</p>
+            </article>
+            <article class="main-description">
+                <p class="main-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consequatur dicta explicabo ipsam maiores minus, officia qui similique sit soluta temporibus.
+                    Accusamus amet asperiores assumenda atque culpa ducimus eveniet, hic illo maxime molestiae quis
+                    quisquam sint, unde vitae voluptatum! Natus ratione sequi tenetur? Dolores magni maiores
+                    praesentium. Architecto assumenda corporis dicta eligendi, magnam modi quae quia! Cum distinctio
+                    minima natus numquam odio perspiciatis, quaerat tenetur unde vitae. Dolorum ducimus quas rerum.</p>
+            </article>
+            <article class="main-description">
+                <p class="main-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Consequatur dicta explicabo ipsam maiores minus, officia qui similique sit soluta temporibus.
+                    Accusamus amet asperiores assumenda atque culpa ducimus eveniet, hic illo maxime molestiae quis
+                    quisquam sint, unde vitae voluptatum! Natus ratione sequi tenetur? Dolores magni maiores
+                    praesentium. Architecto assumenda corporis dicta eligendi, magnam modi quae quia! Cum distinctio
+                    minima natus numquam odio perspiciatis, quaerat tenetur unde vitae. Dolorum ducimus quas rerum.</p>
+            </article>
+        </section>
+        <section class="wrapper-accordion-info">
+            <button class="accordion">Section 1</button>
+            <div class="panel">
+                <p class="accordion-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <button class="accordion">Section 2</button>
+            <div class="panel">
+                <p class="accordion-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <button class="accordion">Section 3</button>
+            <div class="panel">
+                <p class="accordion-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
         </section>
     </main>
 </div>
+<!--FOOTER-->
 <footer class="footer-wrapper">
     <nav class="footer-nav">
+        <a class="link" href="#">Contact us</a>
         <a class="link" href="#">Privacy</a>
         <a class="link" href="#">Security</a>
         <a class="link" href="#">Support</a>
     </nav>
 </footer>
 <script src="js/test.js"></script>
-
 </body>
 </html>
